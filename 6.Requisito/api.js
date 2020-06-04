@@ -67,7 +67,7 @@ async function sendRequest(e) {
 
     if (response.status === 200) {
         openModal();
-        setTimeout(closeModal, 5000);
+        setTimeout(closeModal, 2500);
     }
 }
 
@@ -97,6 +97,7 @@ function openModal() {
 // Close
 function closeModal() {
   modal.style.display = 'none';
+  window.location.href = "../2.Menu/menu.html";
 }
 
 // Close If Outside Click
