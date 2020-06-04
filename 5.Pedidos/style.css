@@ -154,4 +154,7 @@ hr {
         width: 350px;
         margin: 32px 32px;
     }
+    nav .titulo {
+        left: 45%;
+    }
 }

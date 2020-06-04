@@ -20,7 +20,7 @@ nav{
     left: 0px;
     width: 100vw;
     height: 50px;
-    background: #2699FB ;
+    background: #2699FB;
 } 
 
 nav a{
@@ -310,10 +310,5 @@ input[type=radio]:checked + label {
     nav .titulo {
         left: 45%;
     }
-
-
-
-
-
 
 }

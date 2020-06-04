@@ -115,4 +115,7 @@ a {
     .whats{
         width: 100%;
     }
+    nav .titulo {
+        left: 45%;
+    }
 }
