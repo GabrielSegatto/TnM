@@ -44,9 +44,11 @@ nav {
     color: #fff;
     margin-right: auto;
     margin-left: -40px;
-    font-size: 30px;
 }
 
+h1{
+    font-size: 30px;
+}
 /* Estilização do Main */
 main {
     display: flex;
