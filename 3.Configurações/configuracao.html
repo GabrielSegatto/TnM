@@ -11,7 +11,7 @@
         <nav>
             <div class="goBack">
                 <a href="../2.Menu/menu.html">
-                    <img src="../../assets/icon/icons8-voltar-100.png" alt="Ícone seta para voltar">
+                    <img src="../assets/icon/icons8-voltar-100.png" alt="Ícone seta para voltar">
                 </a>
                 </div>
             <div class="h1">
@@ -26,7 +26,7 @@
                 <img src="../assets/icon/icons8-cartão-de-identificação-100.png" class="imgId" alt="Imagem de cartão pessoal">
                 <h3 class="cardId">Nome</h3>
             </div>
-            <input type="text" class="signIn" id="name" placeholder="Matheus Bello" disabled>
+            <input type="text" class="signIn" id="name" placeholder="Novo nome">
         </section>
     
         <section class="content">
@@ -34,7 +34,7 @@
                 <img src="../assets/icon/icons8-pedido-entregue-100.png" class="imgId" alt="Imagem identificação no mapa">
                 <h3 class="cardId">Endereço</h3>
             </div>
-            <input type="text" class="signIn" id="adress" placeholder="Rua. Logo lá, 123 - Perto de lá 12312-123 / São Paulo - SP" disabled>
+            <input type="text" class="signIn" id="adress" placeholder="None endereço">
         </section>
     
         <section class="content">
@@ -42,13 +42,13 @@
                 <img src="../assets/icon/icons8-android-100.png" class="imgId" alt="Imagem de celular">
                 <h3 class="cardId">Celular</h3>
             </div>
-            <input type="text" class="signIn" id="phone" placeholder="(11)91234-5678" disabled>
+            <input type="text" class="signIn" id="phone" placeholder="Novo numero">
         </section>
 
         <section class="content">
             <div class="logoId">
                 <img src="../assets/icon/icons8-caixa-registradora-100.png" class="imgId" alt="Imagem de uma caixa registradora">
-                <h3 class="cardId">Forma de pagamento</h3>
+                <h3 class="cardId">Forma de pagamento padrão</h3>
             </div>
             <div class="opcoes">
                 <input type="radio" name="pagamento" id="dinheiro" value="Dinheiro">
@@ -59,6 +59,8 @@
                 <label for="picpay"><img class="imgOption" src="../assets/icon/PIC PAY.png">Pic Pay</label>
             </div>
         </section>
+
+        <!--
 
         <section class="content">
             <div class="logoId">
@@ -76,13 +78,31 @@
                     <input type="radio" name="gorjeta" id="2reais" value="2">
                     <label for="2reais">R$ 2</label>
                 </div>
+
+                
+
                 <div class="opcoes gorjeta">
                     <input type="radio" name="gorjeta" id="3reais" value="3">
                     <label for="3reais">R$ 3</label>
                 </div>
                 
+            -->
+
             </div>
         </section>
+
+        <!-- Modal -->
+
+        <div id="my-modal" class="modal">
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2 class="modal-txt">Alterações Realizadas</h2>
+              </div>
+            </div>
+          </div>
+        
+        <button type="submit" class="buttonData" id="buttonData">Salvar alterações</button>
         
     </main>
 
